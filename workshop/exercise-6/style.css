@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.link::after {
+    content: ' >';
+}
+.link{
+    text-decoration: none;
+}
+
+.link:visited {
+    color:rgb(79, 164, 234);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.extra-info {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
