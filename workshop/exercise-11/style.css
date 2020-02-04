@@ -1,22 +1,21 @@
 .header {
-
+  text-align: center;
 }
 
 .facts {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 tr {
-
 }
 
 th {
-
 }
 
 td,
 th {
-
 }
 
 h3 {
@@ -30,12 +29,12 @@ h3 {
 .links > li {
 }
 
-/* 
+/*
     Using Flexbox
     You can comment / uncomment this code using cmd+/
 */
 
-/* 
+/*
 .links {
 
 }
@@ -46,5 +45,4 @@ h3 {
 */
 
 .links a {
-
 }

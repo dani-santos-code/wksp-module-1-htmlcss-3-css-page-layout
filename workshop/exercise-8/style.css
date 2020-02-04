@@ -10,7 +10,39 @@ body {
 }
 
 .fast {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .cool {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+  height: 3rem;
+  padding: 0 1rem;
+  background: rgb(23, 130, 240);
+  margin: 1rem;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.cool:hover {
+  transform: scale(1.2);
+}
+
+@keyframes bounce {
+  /* TODO */
 }
